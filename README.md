@@ -1,2 +1,15 @@
 # cbr-rates
-pipeline for CBR exchenge rates
+
+Учебный pet-проект по Data Engineering: пайплайн курсов валют ЦБ РФ.
+
+## Что делает (план)
+
+- **Extract** — скачивает курсы валют через API ЦБ
+- **Transform** — чистит и приводит данные к таблице (pandas)
+- **Load** — загружает в PostgreSQL
+
+## Структура
+
+- `src/cbr_rates/` — код пайплайна 
+- `tests/` — тесты
+- `.env.example` — шаблон настроек (скопировать в `.env`) 
