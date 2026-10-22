@@ -1,6 +1,6 @@
 # cbr-rates
 
-Pet-проект: ETL-пайплайн курсов валют ЦБ РФ на Python.
+Pet-проект на Python: ETL-пайплайн курсов валют ЦБ РФ (Extract → Transform → Load).
 
 ## Что делает (план)
 
